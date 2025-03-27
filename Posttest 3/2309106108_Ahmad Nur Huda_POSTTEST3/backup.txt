@@ -1,0 +1,413 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnBrowse = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtNama = New System.Windows.Forms.TextBox()
+        Me.txtAlamat = New System.Windows.Forms.TextBox()
+        Me.txtNomor = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rbLaki = New System.Windows.Forms.RadioButton()
+        Me.rbPerempuan = New System.Windows.Forms.RadioButton()
+        Me.txtTglLahir = New System.Windows.Forms.DateTimePicker()
+        Me.btnCetak = New System.Windows.Forms.Button()
+        Me.txtUmur = New System.Windows.Forms.TextBox()
+        Me.cbNyanyi = New System.Windows.Forms.CheckBox()
+        Me.cbLukis = New System.Windows.Forms.CheckBox()
+        Me.cbBaca = New System.Windows.Forms.CheckBox()
+        Me.cbNari = New System.Windows.Forms.CheckBox()
+        Me.cbPetualang = New System.Windows.Forms.CheckBox()
+        Me.cbVideo = New System.Windows.Forms.CheckBox()
+        Me.cbMasak = New System.Windows.Forms.CheckBox()
+        Me.cbNulis = New System.Windows.Forms.CheckBox()
+        Me.cbFoto = New System.Windows.Forms.CheckBox()
+        Me.cbNonton = New System.Windows.Forms.CheckBox()
+        Me.cbNgoding = New System.Windows.Forms.CheckBox()
+        Me.cbOlahraga = New System.Windows.Forms.CheckBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(25, 26)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(168, 208)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'btnBrowse
+        '
+        Me.btnBrowse.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.btnBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBrowse.Location = New System.Drawing.Point(60, 240)
+        Me.btnBrowse.Name = "btnBrowse"
+        Me.btnBrowse.Size = New System.Drawing.Size(89, 27)
+        Me.btnBrowse.TabIndex = 2
+        Me.btnBrowse.Text = "Browse"
+        Me.btnBrowse.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(210, 36)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(35, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Nama"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(210, 62)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(32, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Umur"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(210, 90)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(72, 13)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Tanggal Lahir"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(210, 119)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(63, 13)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "No Telepon"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(210, 146)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(39, 13)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "Alamat"
+        '
+        'txtNama
+        '
+        Me.txtNama.Location = New System.Drawing.Point(337, 33)
+        Me.txtNama.Name = "txtNama"
+        Me.txtNama.Size = New System.Drawing.Size(282, 20)
+        Me.txtNama.TabIndex = 8
+        '
+        'txtAlamat
+        '
+        Me.txtAlamat.Location = New System.Drawing.Point(337, 139)
+        Me.txtAlamat.Name = "txtAlamat"
+        Me.txtAlamat.Size = New System.Drawing.Size(282, 20)
+        Me.txtAlamat.TabIndex = 10
+        '
+        'txtNomor
+        '
+        Me.txtNomor.Location = New System.Drawing.Point(337, 112)
+        Me.txtNomor.Name = "txtNomor"
+        Me.txtNomor.Size = New System.Drawing.Size(282, 20)
+        Me.txtNomor.TabIndex = 11
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.rbPerempuan)
+        Me.GroupBox1.Controls.Add(Me.rbLaki)
+        Me.GroupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.GroupBox1.Location = New System.Drawing.Point(204, 171)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(172, 96)
+        Me.GroupBox1.TabIndex = 12
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Jenis Kelamin"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.cbFoto)
+        Me.GroupBox2.Controls.Add(Me.cbNonton)
+        Me.GroupBox2.Controls.Add(Me.cbNgoding)
+        Me.GroupBox2.Controls.Add(Me.cbOlahraga)
+        Me.GroupBox2.Controls.Add(Me.cbPetualang)
+        Me.GroupBox2.Controls.Add(Me.cbVideo)
+        Me.GroupBox2.Controls.Add(Me.cbMasak)
+        Me.GroupBox2.Controls.Add(Me.cbNulis)
+        Me.GroupBox2.Controls.Add(Me.cbBaca)
+        Me.GroupBox2.Controls.Add(Me.cbNari)
+        Me.GroupBox2.Controls.Add(Me.cbLukis)
+        Me.GroupBox2.Controls.Add(Me.cbNyanyi)
+        Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.GroupBox2.Location = New System.Drawing.Point(392, 171)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(227, 184)
+        Me.GroupBox2.TabIndex = 13
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Hobby"
+        '
+        'rbLaki
+        '
+        Me.rbLaki.AutoSize = True
+        Me.rbLaki.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.rbLaki.Location = New System.Drawing.Point(20, 32)
+        Me.rbLaki.Name = "rbLaki"
+        Me.rbLaki.Size = New System.Drawing.Size(68, 17)
+        Me.rbLaki.TabIndex = 14
+        Me.rbLaki.TabStop = True
+        Me.rbLaki.Text = "Laki-Laki"
+        Me.rbLaki.UseVisualStyleBackColor = True
+        '
+        'rbPerempuan
+        '
+        Me.rbPerempuan.AutoSize = True
+        Me.rbPerempuan.Location = New System.Drawing.Point(20, 55)
+        Me.rbPerempuan.Name = "rbPerempuan"
+        Me.rbPerempuan.Size = New System.Drawing.Size(79, 17)
+        Me.rbPerempuan.TabIndex = 15
+        Me.rbPerempuan.TabStop = True
+        Me.rbPerempuan.Text = "Perempuan"
+        Me.rbPerempuan.UseVisualStyleBackColor = True
+        '
+        'txtTglLahir
+        '
+        Me.txtTglLahir.Location = New System.Drawing.Point(337, 85)
+        Me.txtTglLahir.Name = "txtTglLahir"
+        Me.txtTglLahir.Size = New System.Drawing.Size(282, 20)
+        Me.txtTglLahir.TabIndex = 17
+        '
+        'btnCetak
+        '
+        Me.btnCetak.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.btnCetak.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCetak.Location = New System.Drawing.Point(25, 361)
+        Me.btnCetak.Name = "btnCetak"
+        Me.btnCetak.Size = New System.Drawing.Size(594, 27)
+        Me.btnCetak.TabIndex = 18
+        Me.btnCetak.Text = "Cetak Kartu"
+        Me.btnCetak.UseVisualStyleBackColor = False
+        '
+        'txtUmur
+        '
+        Me.txtUmur.Location = New System.Drawing.Point(337, 59)
+        Me.txtUmur.Name = "txtUmur"
+        Me.txtUmur.Size = New System.Drawing.Size(282, 20)
+        Me.txtUmur.TabIndex = 19
+        '
+        'cbNyanyi
+        '
+        Me.cbNyanyi.AutoSize = True
+        Me.cbNyanyi.Location = New System.Drawing.Point(21, 32)
+        Me.cbNyanyi.Name = "cbNyanyi"
+        Me.cbNyanyi.Size = New System.Drawing.Size(71, 17)
+        Me.cbNyanyi.TabIndex = 0
+        Me.cbNyanyi.Text = "Menyanyi"
+        Me.cbNyanyi.UseVisualStyleBackColor = True
+        '
+        'cbLukis
+        '
+        Me.cbLukis.AutoSize = True
+        Me.cbLukis.Location = New System.Drawing.Point(98, 33)
+        Me.cbLukis.Name = "cbLukis"
+        Me.cbLukis.Size = New System.Drawing.Size(62, 17)
+        Me.cbLukis.TabIndex = 1
+        Me.cbLukis.Text = "Melukis"
+        Me.cbLukis.UseVisualStyleBackColor = True
+        '
+        'cbBaca
+        '
+        Me.cbBaca.AutoSize = True
+        Me.cbBaca.Location = New System.Drawing.Point(98, 56)
+        Me.cbBaca.Name = "cbBaca"
+        Me.cbBaca.Size = New System.Drawing.Size(73, 17)
+        Me.cbBaca.TabIndex = 3
+        Me.cbBaca.Text = "Membaca"
+        Me.cbBaca.UseVisualStyleBackColor = True
+        '
+        'cbNari
+        '
+        Me.cbNari.AutoSize = True
+        Me.cbNari.Location = New System.Drawing.Point(21, 55)
+        Me.cbNari.Name = "cbNari"
+        Me.cbNari.Size = New System.Drawing.Size(58, 17)
+        Me.cbNari.TabIndex = 2
+        Me.cbNari.Text = "Menari"
+        Me.cbNari.UseVisualStyleBackColor = True
+        '
+        'cbPetualang
+        '
+        Me.cbPetualang.AutoSize = True
+        Me.cbPetualang.Location = New System.Drawing.Point(98, 102)
+        Me.cbPetualang.Name = "cbPetualang"
+        Me.cbPetualang.Size = New System.Drawing.Size(89, 17)
+        Me.cbPetualang.TabIndex = 7
+        Me.cbPetualang.Text = "Berpetualang"
+        Me.cbPetualang.UseVisualStyleBackColor = True
+        '
+        'cbVideo
+        '
+        Me.cbVideo.AutoSize = True
+        Me.cbVideo.Location = New System.Drawing.Point(21, 101)
+        Me.cbVideo.Name = "cbVideo"
+        Me.cbVideo.Size = New System.Drawing.Size(73, 17)
+        Me.cbVideo.TabIndex = 6
+        Me.cbVideo.Text = "Videografi"
+        Me.cbVideo.UseVisualStyleBackColor = True
+        '
+        'cbMasak
+        '
+        Me.cbMasak.AutoSize = True
+        Me.cbMasak.Location = New System.Drawing.Point(98, 79)
+        Me.cbMasak.Name = "cbMasak"
+        Me.cbMasak.Size = New System.Drawing.Size(72, 17)
+        Me.cbMasak.TabIndex = 5
+        Me.cbMasak.Text = "Memasak"
+        Me.cbMasak.UseVisualStyleBackColor = True
+        '
+        'cbNulis
+        '
+        Me.cbNulis.AutoSize = True
+        Me.cbNulis.Location = New System.Drawing.Point(21, 78)
+        Me.cbNulis.Name = "cbNulis"
+        Me.cbNulis.Size = New System.Drawing.Size(62, 17)
+        Me.cbNulis.TabIndex = 4
+        Me.cbNulis.Text = "Menulis"
+        Me.cbNulis.UseVisualStyleBackColor = True
+        '
+        'cbFoto
+        '
+        Me.cbFoto.AutoSize = True
+        Me.cbFoto.Location = New System.Drawing.Point(98, 146)
+        Me.cbFoto.Name = "cbFoto"
+        Me.cbFoto.Size = New System.Drawing.Size(67, 17)
+        Me.cbFoto.TabIndex = 11
+        Me.cbFoto.Text = "Fotografi"
+        Me.cbFoto.UseVisualStyleBackColor = True
+        '
+        'cbNonton
+        '
+        Me.cbNonton.AutoSize = True
+        Me.cbNonton.Location = New System.Drawing.Point(21, 145)
+        Me.cbNonton.Name = "cbNonton"
+        Me.cbNonton.Size = New System.Drawing.Size(74, 17)
+        Me.cbNonton.TabIndex = 10
+        Me.cbNonton.Text = "Menonton"
+        Me.cbNonton.UseVisualStyleBackColor = True
+        '
+        'cbNgoding
+        '
+        Me.cbNgoding.AutoSize = True
+        Me.cbNgoding.Location = New System.Drawing.Point(98, 123)
+        Me.cbNgoding.Name = "cbNgoding"
+        Me.cbNgoding.Size = New System.Drawing.Size(79, 17)
+        Me.cbNgoding.TabIndex = 9
+        Me.cbNgoding.Text = "Mengoding"
+        Me.cbNgoding.UseVisualStyleBackColor = True
+        '
+        'cbOlahraga
+        '
+        Me.cbOlahraga.AutoSize = True
+        Me.cbOlahraga.Location = New System.Drawing.Point(21, 122)
+        Me.cbOlahraga.Name = "cbOlahraga"
+        Me.cbOlahraga.Size = New System.Drawing.Size(69, 17)
+        Me.cbOlahraga.TabIndex = 8
+        Me.cbOlahraga.Text = "Olahraga"
+        Me.cbOlahraga.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Tomato
+        Me.ClientSize = New System.Drawing.Size(646, 399)
+        Me.Controls.Add(Me.txtUmur)
+        Me.Controls.Add(Me.btnCetak)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.txtTglLahir)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.txtNomor)
+        Me.Controls.Add(Me.txtAlamat)
+        Me.Controls.Add(Me.txtNama)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnBrowse)
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnBrowse As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents txtNama As TextBox
+    Friend WithEvents txtAlamat As TextBox
+    Friend WithEvents txtNomor As TextBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents rbLaki As RadioButton
+    Friend WithEvents rbPerempuan As RadioButton
+    Friend WithEvents txtTglLahir As DateTimePicker
+    Friend WithEvents btnCetak As Button
+    Friend WithEvents txtUmur As TextBox
+    Friend WithEvents cbNyanyi As CheckBox
+    Friend WithEvents cbFoto As CheckBox
+    Friend WithEvents cbNonton As CheckBox
+    Friend WithEvents cbNgoding As CheckBox
+    Friend WithEvents cbOlahraga As CheckBox
+    Friend WithEvents cbPetualang As CheckBox
+    Friend WithEvents cbVideo As CheckBox
+    Friend WithEvents cbMasak As CheckBox
+    Friend WithEvents cbNulis As CheckBox
+    Friend WithEvents cbBaca As CheckBox
+    Friend WithEvents cbNari As CheckBox
+    Friend WithEvents cbLukis As CheckBox
+End Class
